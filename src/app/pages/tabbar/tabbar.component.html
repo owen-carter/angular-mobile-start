@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="tab-container">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="tab-items">
+    <div [ngClass]="{'tab-item': true, 'actived': actived == 0}" (click)="activeIt(0,'home')">
+      <img src="assets/home{{actived == 0 ? '-active' : ''}}.png" alt="">
+      <span>首页</span>
+    </div>
+    <div [ngClass]="{'tab-item': true, 'actived': actived == 1}" (click)="activeIt(1,'shop')">
+      <img src="assets/shop{{actived == 1 ? '-active' : ''}}.png" alt="">
+      <span>集市</span>
+    </div>
+    <div [ngClass]="{'tab-item': true, 'actived': actived == 2}" (click)="activeIt(2,'collect')">
+      <img src="assets/collect{{actived == 2 ? '-active' : ''}}.png" alt="">
+      <span>收藏</span>
+    </div>
+    <div [ngClass]="{'tab-item': true, 'actived': actived == 3}" (click)="activeIt(3,'my')">
+      <img src="assets/my{{actived == 3 ? '-active' : ''}}.png" alt="">
+      <span>我的</span>
+    </div>
+  </div>
+</div>

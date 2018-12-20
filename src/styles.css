@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  margin: 0!important;
+  padding: 0
+}
+.container{
+  position: relative;
+  float: left;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+.dot-indicator{
+  bottom: 1vh!important
+}

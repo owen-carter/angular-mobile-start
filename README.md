@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # UiTest
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
@@ -26,7 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-=======
+
 # angular-mobile-start
 with ng-zorro-antd-mobile
->>>>>>> d8cd65e0e2bba610f9bac6c3c3903e89e3c56321
